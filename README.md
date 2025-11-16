@@ -79,15 +79,15 @@ In Tidal
 let rbpitch = pF "rbpitch"
     rbpitchst n = rbpitch (2 ** (n / 12))
 
-d1   $ n (scale "ritusen" "0 .. 7") 
-	 # sound "superpiano"
-	 # rbpitchst (-3)
-     # orbit 2
+d1 $ n (scale "ritusen" "0 .. 7") 
+   # sound "superpiano"
+   # rbpitchst (-3)
+   # orbit 2
 
 -- w/ chop
 d1 $ rarely (# (orbit 2 # rbpitch (choose [0.5, 2])))
-	 $ slow 4
-	 $ chop 32
-	 $ s "bev"
-	 # orbit 0
+   $ slow 4
+   $ chop 32
+   $ s "bev"
+   # orbit 0
 ```
