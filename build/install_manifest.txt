@@ -1,2 +1,0 @@
-/usr/local/lib/SuperCollider/plugins/RubberbandUGens.so
-/usr/local/share/SuperCollider/Extensions/RubberbandPitchShift.sc

@@ -1,7 +1,0 @@
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/RubberbandUGens.dir
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/edit_cache.dir
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/rebuild_cache.dir
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/list_install_components.dir
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/install.dir
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/install/local.dir
-/home/mwcm/projects/RubberbandUGen/build/CMakeFiles/install/strip.dir
