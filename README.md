@@ -48,7 +48,6 @@ In SuperCollider
 
         ~rbPitchBus = Bus.audio(s, 2);
 
-        // Use a SynthDef with proper control rate argument
         SynthDef(\rbPitchShift, {
             arg inBus;
             var sig, shifted, pitch;
