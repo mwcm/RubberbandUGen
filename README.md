@@ -13,6 +13,21 @@ Rubberband library 4.0.0+
 CMake 3.5+
 C++ compiler with C++11 support
 ```
+
+```bash
+# Install Rubberband library and build tools
+sudo apt-get install build-essential cmake librubberband-dev supercollider-dev
+```
+
+If `librubberband-dev` is not available on your distribution, you can build Rubberband from source:
+```bash
+sudo apt-get install libsamplerate0-dev libfftw3-dev vamp-plugin-sdk lv2-dev meson ninja-build
+git clone https://github.com/breakfastquay/rubberband.git
+cd rubberband
+meson build
+ninja -C build
+sudo ninja -C build install
+```
 ## Installation
 
 ```
