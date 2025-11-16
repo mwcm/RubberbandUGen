@@ -36,7 +36,6 @@ or
 
 { RubberbandPitchShift.arMono(SinOsc.ar(440), 0.5) }.play; // one octave down
 { RubberbandPitchShift.arMono(SinOsc.ar(440), 2.0) }.play; // one octave up
-
 ```
 
 ## Orbit Example
