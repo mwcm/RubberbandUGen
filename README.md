@@ -2,8 +2,7 @@
 SuperCollider UGen wrapper for the Rubberband audio time-stretching and pitch-shifting library
 
 
-https://github.com/user-attachments/assets/b720fa8f-f9c9-420c-b418-ef7ddd977c16
-
+[https://github.com/username/repo/releases](https://github.com/mwcm/RubberbandUGen/releases/tag/0.0.1/download/v1.0/demo.mp4)
 
 ## Requirements
 ```
