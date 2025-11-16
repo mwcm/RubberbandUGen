@@ -87,7 +87,7 @@ d1 $ n (scale "ritusen" "0 .. 7")
 -- w/ chop
 d1 $ rarely (# (orbit 2 # rbpitch (choose [0.5, 2])))
    $ slow 4
-   $ chop 32
+   $ chop 16
    $ s "bev"
    # orbit 0
 ```
