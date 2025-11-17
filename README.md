@@ -32,7 +32,7 @@ sudo ninja -C build install
 
 ```
 # Clone this repo
-git clone https://github.com/yourusername/RubberbandUGen.git
+git clone https://github.com/mwcm/RubberbandUGen.git
 
 # Build the UGen
 cd RubberbandUGen
