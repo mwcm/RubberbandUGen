@@ -94,9 +94,12 @@ RubberbandPitchShift::RubberbandPitchShift() {
         sampleRate(),
         numChannels,
         RubberBand::RubberBandStretcher::OptionProcessRealTime |
-        RubberBand::RubberBandStretcher::OptionPitchHighSpeed |  // Faster, less latency
-        RubberBand::RubberBandStretcher::OptionWindowShort |
-        RubberBand::RubberBandStretcher::OptionTransientsCrisp  // 
+        RubberBand::RubberBandStretcher::OptionPitchHighQuality |  // Highest quality pitch shifting
+        RubberBand::RubberBandStretcher::OptionEngineFiner |           // R3 engine for best quality
+        RubberBand::RubberBandStretcher::OptionWindowStandard |     // Standard window for quality
+        RubberBand::RubberBandStretcher::OptionSmoothingOn |        // Smoothing for better sound
+        RubberBand::RubberBandStretcher::OptionFormantPreserved |   // Preserve formants
+        RubberBand::RubberBandStretcher::OptionTransientsMixed      // Balanced transient handling
     );
     
     stretcher->setTimeRatio(1.0);
